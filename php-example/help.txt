@@ -1,0 +1,36 @@
+ referece 
+
+https://www.youtube.com/watch?v=YFl2mCHdv24&feature=youtu.be
+
+Docker Compose in 12 Minutes: https://youtu.be/Qw9zlE3t8Ko
+Deploy Docker Containers https://youtu.be/F82K07NmRpk
+
+Download Docker for Mac
+https://docs.docker.com/docker-for-mac/
+
+Download Docker for Windows
+https://docs.docker.com/docker-for-wi...
+
+build the image
+
+[root@ip-172-31-94-130 php-example]# docker build -t phphelloworld .
+
+
+run the images
+[root@ip-172-31-94-130 php-example]# docker run -p 8081:80 phphelloworld
+
+
+pusing the image to docker hub
+
+
+docker login
+
+tag the image
+
+[root@ip-172-31-94-130 php-example]# docker tag phphelloworld rajeevkk2001/dockerpractice:phphelloworld
+
+docker push rajeevkk2001/dockerpractice:phphelloworld
+
+
+
+
