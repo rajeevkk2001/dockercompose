@@ -1,0 +1,14 @@
+Jenkin-server installation though docker
+admin password /var/jenkins_home/secrets/initialAdminPassword
+
+
+docker build -t rajeevkk2001/jenkininstall:1.1.0 .    
+
+
+docker run -p 8080:8080 -p 50000:50000 --name rkkJenkin/install rajeevkk2001/jenkininstall:1.1.0
+
+
+
+docker exec -it bb0ba738bd29 sh
+
+
