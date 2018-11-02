@@ -1,0 +1,11 @@
+This code is from the git hub 
+
+https://github.com/jakewright/tutorials/tree/master/docker/02-docker-compose
+https://github.com/geerlingguy?tab=repositories
+
+https://www.youtube.com/watch?v=Qw9zlE3t8Ko
+
+
+docker-compose up -d to run in detached mode
+
+
